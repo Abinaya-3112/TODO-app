@@ -1,0 +1,81 @@
+/* Login Page Specific Styles */
+.login-page {
+  background: linear-gradient(135deg, #0f4c75 0%, #3282b8 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+.divider::before, .divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.divider::before {
+  margin-right: 1rem;
+}
+
+.divider::after {
+  margin-left: 1rem;
+}
+
+.social-login .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.google-btn {
+  border-color: #db4437;
+  color: #db4437;
+}
+
+.google-btn:hover {
+  background-color: #db4437;
+  color: white;
+}
+
+.facebook-btn {
+  border-color: #4267B2;
+  color: #4267B2;
+}
+
+.facebook-btn:hover {
+  background-color: #4267B2;
+  color: white;
+}
+
+.github-btn {
+  border-color: #333;
+  color: #333;
+}
+
+.github-btn:hover {
+  background-color: #333;
+  color: white;
+}
